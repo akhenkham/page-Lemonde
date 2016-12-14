@@ -1,0 +1,57 @@
+
+.button1 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    height: 25px;
+    font-size: 10px;
+    border-left: 1px solid #626a72;
+    border-top: none;
+}
+
+.button2 {
+     background-color: rgb(255,198,0);
+     color: black;
+     height: 24px;
+     border: none;
+     padding: 2px;
+
+
+}
+
+button1:hover {
+    background-image: linear-gradient(rgb(30, 45, 55), rgb(1,1,1));
+}
+.row {
+    height: 30px;
+    background-image: linear-gradient(rgb(45, 56, 65), rgb(1, 12, 22));
+    width: 100%;
+    border-radius: 0%;
+}
+
+#obs {
+
+    margin-right: 255px;
+    border-right: 1px solid #444444;
+} 
+  
+.menuderoulant {
+     margin: 0px;
+     width: 100px;
+     background-color: linear-gradient(to bottom, #193342, beige);
+     
+}
+
+
+.search{
+    height:20px;
+    width: 150px;
+}
+
+.loupe img{
+    height: 13px;
+    font-size: 11px;
+    display: inline-block;
+    position : relative;
+    padding: 2px;
+}
