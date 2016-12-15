@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Le Monde.fr - Actualités et Infos en France et dans le monde </title>
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="lemonde.css">
@@ -9,16 +10,39 @@
 <body>
 
 
-<div class="container-fluid ">
-        <div class="row navbar">
-            <div class="col-md-12 col-md-offset-1">
-                <a href="http://www.lemonde.fr/"target="_blank"><button class="button1">Le Monde</button></a>
-                <a href="http://www.telerama.fr/" target="_blank"><button class="button1">Télérama</button></a>
-                <a href="http://www.monde-diplomatique.fr/" target="_blank"><button class="button1">Le Monde diplomatique</button>
-                <a href="http://www.huffingtonpost.fr/" target="_blank"><button class="button1">Le Huffington post</button></a>
-                <a href="http://www.courrierinternational.com/" target="_blank"><button class="button1">Courrier internationnal</button></a>
-                <a href="http://www.lavie.fr/" target="_blank"><button class="button1">La Vie</button></a>
-                <a id="obs" href="http://tempsreel.nouvelobs.com/" target="_blank"><button class="button1">L'Obs</button></a>
+<div class="container-fluid "> <!-- 1ere div -->
+      
+   <div class="row navbar">  <!-- 2eme div -->
+          
+       <div class="col-md-11 col-md-offset-1"> <!-- 3 eme div -->
+              
+                <a href="http://www.lemonde.fr/"target="_blank">
+                   <button class="button1">Le Monde</button>
+                </a>
+               
+                <a href="http://www.telerama.fr/" target="_blank">
+                   <button class="button1">Télérama</button>
+                </a>
+               
+                <a href="http://www.monde-diplomatique.fr/" target="_blank">
+                   <button class="button1">Le Monde diplomatique</button>
+                </a>
+               
+                <a href="http://www.huffingtonpost.fr/" target="_blank">
+                   <button class="button1">Le Huffington post</button>
+                </a>
+               
+                <a href="http://www.courrierinternational.com/" target="_blank">
+                   <button class="button1">Courrier internationnal</button>
+                </a>
+               
+                <a href="http://www.lavie.fr/" target="_blank">
+                   <button class="button1">La Vie</button>
+                </a>
+               
+                <a id="obs" href="http://tempsreel.nouvelobs.com/" target="_blank">
+               	 <button class="button1">L'Obs</button>
+                </a>
              
                             <select class="menuderoulant" Label="Service Le Monde">
                                 <optgroup label="Boutique Le Monde">
@@ -52,22 +76,29 @@
                             </select>
 
                         
-                <a href="http://abo.lemonde.fr/#xtor=CS1-263[BOUTONS_LMFR]-[HEADER]-5-[Home]" target="_blank"><button class="button2"> S'abonner au monde à partir de 1 €</button>
+                <a href="http://abo.lemonde.fr/#xtor=CS1-263[BOUTONS_LMFR]-[HEADER]-5-[Home]" target="_blank">
+                    <button class="button2"> S'abonner au monde à partir de 1 €</button>
                 </a>     
-            </div>
-        </div>
-         <div class="row1">
-            <div class="col-md-6">
-                  <div class="input-group search">
-                            <div class="input-group-addon loupe" >
+       </div> <!-- 3eme div fermante -->
+       
+    </div> <!-- 2eme div fermante -->
+  
+        <div class="row1"> <!-- 4eme div -->
+        
+            <div class="col-md-6"> <!-- 5eme div -->
+            
+                  <div class="input-group search"> <!-- 6eme div -->
+                           
+                            <div class="input-group-addon loupe" > 
                                 <img src="img/loupe.png" alt="loupe" />
                             </div>
                                 <input type="search" class="form-control" placeholder="Rechercher" />
-                  </div>
-            </div>
-         
-        <div class="col-md-2">
-       
+                  </div> <!-- 6eme div fermante -->
+            </div> <!-- 5eme div fermante -->
+         </div> <!-- 4eme div fermante -->
+        
+        <div class="col-md-2"> 
+            
              <div class="sociaux">
            
                     <a href="https://www.facebook.com/lemonde.fr" target="_blank" class="" title="Suivez LeMonde.fr sur Facebook">
@@ -81,7 +112,7 @@
                     <a href="https://instagram.com/lemondefr" target="_blank" class="instagram20x20 ico" title="Suivez LeMonde.fr sur Instagram">       <img src="img/instagram.png"/>
                     </a>
              </div>
-         </div>
+      </div>
         </div>
      </div>  
             <hr/>
@@ -91,7 +122,7 @@
          
        
        <form name="form" class="form" >
-<select size="1"  onChange="location = this.options[this.selectedIndex].value;">
+<select>
 	<option value="http://www.lemonde.fr/" >Edition globale</option>
 	<option value="http://www.lemonde.fr/afrique/" >Edition Afrique</option>
 </select>
@@ -99,7 +130,9 @@
        </div>
 </form>
 
-</div>
+        <div>
+
+</div> 
      
 </body>
 

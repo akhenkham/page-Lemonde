@@ -69,5 +69,8 @@ button1:hover {
     text-align: center;
 
 }
-
+.form {
+    background-color: white;
+    color: grey;
+}
 
