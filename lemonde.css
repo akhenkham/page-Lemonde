@@ -1,76 +1,170 @@
+/* Header */
 
-.button1 {
-    background-color: transparent;
-    border: none;
-    color: white;
-    height: 25px;
-    font-size: 10px;
-    border-left: 1px solid #626a72;
-    border-top: none;
+
+a, a:hover {
+	text-decoration: none;
+}
+main {
+	background-color: LightGray;
 }
 
-.button2 {
-     background-color: rgb(255,198,0);
-     color: black;
-     height: 24px;
-     border: none;
-     padding: 2px;
-
-
+select {
+	font-size: 10px;
+	background-color: #1a1a1a;
+	color: white;
+	position: relative; 
+	left: 9px;	
 }
 
-button1:hover {
-    background-image: linear-gradient(rgb(30, 45, 55), rgb(1,1,1));
-}
-.navbar{
-    height: 30px;
-    background-image: linear-gradient(rgb(45, 56, 65), rgb(1, 12, 22));
-    width: 100%;
-    border-radius: 0%;
-}
-.row1 {
-
-    height: 0px;
-
-}
-#obs {
-
-    margin-right: 255px;
-    border-right: 1px solid #444444;
-} 
-  
-.menuderoulant {
-     margin: 0px;
-     width: 100px;
-     background-color: linear-gradient(to bottom, #193342, beige);
-     
+.actu-milieu {
+	padding-top: 15px;
 }
 
-
-.search{
-    height:20px;
-    width: 150px;
+.actu-mineures {
+	padding-top: 15px;
 }
 
-.loupe img{
-    height: 13px;
-    font-size: 11px;
-    display: inline-block;
-    position : relative;
-    padding: 2px;
+.actu-petit {
+	padding-bottom: 15px;
 }
 
-.photo {
-    width: 240px;
-
-
+.actu-titre {
+	color: DarkBlue;
+	font-size: 24px;
+	font-weight: bolder;
 }
-.form {
-    text-align: center;
 
+.en-continu {
+	background-color: red;
+	color: white;
+	font-weight:bold;
+	font-size: 16px;
+	margin-top: 15px;
 }
-.form {
-    background-color: white;
-    color: grey;
+
+.header-colonne {
+	margin : 0;
+	height: 28px;
+	padding-left: 0;
+	padding-right: 0;
+	border-left: solid 1px grey;
+}
+
+.header-colonne:hover {
+	background-color: black;
+}
+
+.header-bottom-menu-button {
+	border: solid 1px LightGray;
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+
+.header-top {
+	font-size : 10px;	
+	line-height: 28px;
+}
+
+.header-top a{
+	color: white;
+	text-decoration: none;
+}
+
+.header-yellow {
+	background-color: gold;
+	padding-left: 10px;
+	padding-right: 0;
+	border: solid 1px LightGray;
+}
+
+.header-yellow a{
+	color: black;
+	font-weight: bold;
+}
+
+.ligne {
+	width: 100%;
+	height: 8px;
+	background-color: LightGray;
+}
+
+.margin-bot-25 {
+	margin-bottom: 25px;
+}
+
+#header-bottom a{
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+#header-bottom-menu {
+	border-top: solid 2px gray;
+}
+
+#header-middle {
+	line-height: 40px;
+}
+
+#header-middle a{
+	color: black;
+	font-weight: bold;
+	opacity: 0.5;
+}
+
+#header-middle a:hover {
+	opacity: 1.0;
+}
+
+#header-top-bg {
+	background-color: #1a1a1a;
+}
+
+#logo {
+	text-align: center;
+	border-top: solid 1px LightGray;
+}
+
+#main-colonnes {
+	background-color: white;
+	margin-top: 0;	
+}
+
+#main-titre:hover {
+	color: cyan;
+}
+
+#menu-select {
+	line-height: 28px;
+}
+
+#menus-top {
+	background-color: #1a1a1a;
+	color: white;
+	font-weight: bold;		
+}
+
+#pub{
+	text-align: center;
+	padding: 15px;
+}
+
+#rouge {
+	background-color: red;
+	color: white;
+	text-transform: uppercase;
+	height: 40px;
+	line-height: 40px;
+}
+
+#text-black {
+	color: black;
+}
+
+#toute-lactu {
+	background-color: LightGray;
+	padding-left: 10px;
 }
 
