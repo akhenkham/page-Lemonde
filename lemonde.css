@@ -143,12 +143,14 @@ select {
 #menus-top {
 	background-color: #1a1a1a;
 	color: white;
-	font-weight: bold;		
+	font-weight: bold;
+	padding: 1px;		
 }
 
-#pub{
+#pub {
 	text-align: center;
-	padding: 15px;
+
+
 }
 
 #rouge {
@@ -167,4 +169,15 @@ select {
 	background-color: LightGray;
 	padding-left: 10px;
 }
-
+.dfp_slot.banniere {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    text-align: center;
+    min-height: 90px;
+}
+.dfp_slot {
+    position: relative;
+    line-height: 0;
+}
